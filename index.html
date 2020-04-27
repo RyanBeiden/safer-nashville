@@ -5,20 +5,24 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>A Safer Nashville</title>
   <link rel="stylesheet" href="main.css">
+  <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,700&display=swap" rel="stylesheet">
 </head>
 <body>
   <header>
     <h1>A Safer Nashville</h1>
-    <h2>PHASES:</h2>
+    <nav>
+      <ul class="navigation">
+        <li class="nav-link" onclick="allRoadMap(eachPhase, '0')">0</li>
+        <li class="nav-link" onclick="allRoadMap(eachPhase, '1')">1</li>
+        <li class="nav-link" onclick="allRoadMap(eachPhase, '2')">2</li>
+        <li class="nav-link" onclick="allRoadMap(eachPhase, '3')">3</li>
+        <li class="nav-link" onclick="allRoadMap(eachPhase, '4')">4</li>
+      </ul>
+    </nav>
   </header>
-  <nav>
-    <ul class="navigation">
-      <li class="nav-link" onclick="">1</li>
-      <li class="nav-link" onclick="">2</li>
-      <li class="nav-link" onclick="">3</li>
-      <li class="nav-link" onclick="">4</li>
-    </ul>
-  </nav>
+  <div class="phase-current">
+    <h3 onclick="allRoadMap(eachPhase, '0')">See Current Phase</h3>
+  </div>
   <div id="phases"></div>
   <script src="main.js"></script>
 </body>
