@@ -1,3 +1,38 @@
 body {
   background-color: darkslategray;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  padding-top: 12px;
+  text-align: center;
+  color: #fff;
+  font-size: 1.3em;
+}
+
+.navigation {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+}
+
+.nav-link {
+  margin: 15px;
+  padding: 10px 20px;
+  border: 1px solid #fff;
+  border-radius: 1.5em;
+  color: #fff;
+  font-size: 2em;
+}
+
+.nav-link:hover {
+  background-color: #fff;;
+  border: 1px solid #fff;
+  border-radius: 1.5em;
+  color: darkslategray;
+  cursor: pointer;
 }
