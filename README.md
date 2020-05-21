@@ -15,7 +15,7 @@ This project will display the current phase we are on and allow the User to see 
 - Run any http server `$ hs` or code editor to view what I have so far 👀
 
 ## Technologies Used
-[![DOM](https://img.shields.io/badge/-DOM-2c9fcc?style=flat-square)](#) [![Flexbox](https://img.shields.io/badge/-Flexbox-2c9fcc?style=flat-square)](#)
+[![JavaScript](https://img.shields.io/badge/-JavaScript-2c9fcc?style=flat-square)](#) [![HTML](https://img.shields.io/badge/-HTML-2c9fcc?style=flat-square)](#) [![CSS](https://img.shields.io/badge/-CSS-2c9fcc?style=flat-square)](#) [![DOM](https://img.shields.io/badge/-DOM-2c9fcc?style=flat-square)](#) [![Flexbox](https://img.shields.io/badge/-Flexbox-2c9fcc?style=flat-square)](#)
 
 #### Backlog/Roadmap
 [![WIP](https://img.shields.io/badge/-Work%20In%20Progress-orange?style=flat-square)](#)
